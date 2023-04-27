@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lead Generation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid  px-0 wow fadeIn" data-wow-delay="0.1s">
+        <!-- <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt text-primary me-2"></i>G-13, Upsidc Site IV, Surajpur Site V, Greater Noida 201308 </small>
+                <small class="ms-4"><i class="fa fa-clock text-primary me-2"></i>10.00 am - 7.00 pm</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small><i class="fa fa-envelope text-primary me-2"></i>info@deeomdigital.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</small>
+            </div>
+        </div> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" style="background-color: #fff;    position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030; box-shadow: 2px 2px 6px #000;" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <!-- <h1 class="display-5 text-primary m-0">DEEOM </h1> -->
+                <img src="Deeom Digital.png" height="75px" width="190px" alt="logo" style="padding-bottom: 10px;">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About us</a>
+                    <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropend">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Digital Marketing &raquo;
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="ppc-services.html">Pay Per Click</a></li>
+                                    <li><a class="dropdown-item" href="lead-genration.html">Lead Generation</a></li>
+
+                                    <li><a class="dropdown-item" href="social-media-marketing.html">Social Media
+                                            Marketing</a></li>
+                                    <li><a class="dropdown-item" href="seo.html">Search Engine Optimization</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropend">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Website Design &raquo;
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="website-design.html">Website Designing</a></li>
+                                    <li><a class="dropdown-item" href="Graphic-designing.html">Graphics Designing</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropend">
+                                <a class="nav-link " href="content-writing.html" target="_blank">
+                                    Content Writing
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-facebook-f text-primary"></small>
+                    </a>
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-twitter text-primary"></small>
+                    </a>
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-linkedin-in text-primary"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <img src="LeadGeneration-banner.jpg" width="100%" height="500px" alt="" class="">
+        </div>
+    </div>
+
+
+    <div class="lead-gen-text mt-4" style="">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Top Lead Generation Company in Noida</h2>
+                    <p>Deeom Digital is a lead generation company you are looking for. We are the best Lead Generation
+                        Company in Noida. We have strategies that help you explore and connect with various marketing
+                        channels and hence build a network of consumers who need you. We claim to be the best and the
+                        most reliant Lead Generation Company in Noida. We help you grow your leads and improve manifolds
+                        in your business. We can provide you with the finest qualified lead. Not only this but this all
+                        works in accordance with the needs of our clients.</p>
+                </div>
+                <div class="col-md-4">
+
+                    <figure class="wpb_wrapper vc_figure">
+                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                            <img src="B2B-Lead-Generation.webp" class="vc_single_image-img attachment-large img-fluid"
+                                alt="ppc services in noida" decoding="async" loading="lazy"
+                                title="ppc services in noida" srcset="" sizes="">
+                        </div>
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="imp-lead-gen">
+        <div class="container">
+            <h2 class="text-center">Why Lead Generation Important for your Business?</h2>
+            <p>Be it a small business or a business that earns billions of dollars, irrespective of both the measures,
+                Lead Generation is very important for any kind of business. It is very much the first step of any
+                company and this is a thing on which a business runs. When these leads turn into potential consumers,
+                the business gains huge profit and is benefitted. To sum up, Lead Generation is important-</p>
+            <div class="d-flex justify-content-around">
+
+                <ul>
+                    <li>For Increase Traffic</li>
+                    <li> For Increase Sales</li>
+                    <li> Expands Your Business</li>
+                    <li> Filter out Interested parties Towards your Website</li>
+                </ul>
+                <img src="./1-3.png" alt="" height="200px" width="400px" class="">
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="best-lead-gen my-4">
+        <div class="container">
+            <h2 class="text-center">Why Deeom Digital is the BEST Lead Generation Company in Noida?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/market-icons-15728.png" class="img-fluid" alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Huge Market Coverage</h3>
+                        <div class="infobox_content">Providing you with leads won’t be a reality without widespread
+                            market coverage, which we sure shot have.</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/businessperson-meeting-clip-art-teamwork-png-download-2100-business-meeting-png-2100_2100.png"
+                                        class="img-fluid"  alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Expert Team</h3>
+                        <div class="infobox_content">We offer our team of vigilant professionals dedicated to find more
+                            leads for your business.</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/transparency-pngrepo-com.png"  class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Transparency</h3>
+                        <div class="infobox_content">We offer our clients crystal clear image of the reports with daily
+                            updates.</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/smo-social-media-optimization-500x500-1.png"
+                                        class="img-fluid"  alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Social Media</h3>
+                        <div class="infobox_content">We use several social media platforms to provide you best leads.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/why-Database-Marketing.png"  class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Data base Marketing</h3>
+                        <div class="infobox_content">We work on effective data to make sure your business does wonders.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/lead-generation-mapstechhub11.png"
+                                        class="img-fluid"  alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Lead Generation</h3>
+                        <div class="infobox_content">We provides you with lead nurturing. We focus on quality over
+                            quantity.</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img src="https://digitalnotebook.in/up/2020/10/seo.png"
+                                    class="img-fluid"    alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">SEO</h3>
+                        <div class="infobox_content">With the help of Search Engine Optimization, we increase your
+                            sites’ ranking. Our team of experts works on keyword targeting just to fetch the maximum
+                            organic leads</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/Build-Your-Own-Audience-Icon-286x200-1.png"
+                                        class="img-fluid"   alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Traffic</h3>
+                        <div class="infobox_content">We have a vast expansion in the market range and this will help you
+                            to attract more traffic, audiences or customers for your services or products.</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/Need-icon3.png"  class="img-fluid" alt=""></div>
+                            </div>
+                        </div>
+                        <h3 class="infobox_title">Lead Nurturing</h3>
+                        <div class="infobox_content">We work on humanitarian approach and this makes us the best among
+                            the rest as we not only find leads but we nurture a relation built on trust with the buyers.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="strategie my-4">
+        <div class="container">
+            <hr>
+            <h1 class="text-center">What Strategies do we follow?
+            </h1>
+            <ul>
+                <li> <b> Hosting Events– </b> We host events and come up with live events to cater the audience such as
+                    webinars,
+                    workshops, seminars, etc. This helps in creating awareness about your services.</li>
+                <li> <b> Creation of newsletters– </b> We come up with must read news-letters. This helps us stay
+                    updated and relevant and
+                    people keep looking out for us.</li>
+                <li> <b> Offers–</b> We come up with useful and attractive offers. A discount or two sometimes boosts
+                    the traffic towards
+                    your content.</li>
+                <li> <b> Optimization of your website– </b> We work on it as well as on optimizing your social profile
+                    to promote your
+                    lead magnet.</li>
+                <li> <b> Optimization of landing pages– </b> We create and keep an eye on the best landing pages for
+                    your business. Not
+                    only this, we also try our best to optimize each and every element of the landing page to suit your
+                    requirements.</li>
+                <li> <b>Effective Online Advertising–</b>With all means we try our best to promote you and your brand
+                    online. </li>
+                <li> <b>Social Media Platforms for leads– </b> We leave no stone unturned. We use various kinds of
+                    social media platforms
+                    like Youtube, Facebook, Twitter, etc to popularize your business.</li>
+                <li> <b> URL Tracking– </b> We use all the tracking parameters to get and find you leads by using simple
+                    forms fill ups to
+                    track users.</li>
+                We completely understand your needs and we work towards transforming your business and taking it to
+                heights
+                and avenues unimaginable. You are always welcome.
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-2 py-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="logo">
+                        <img src="Deeom Digital.png" height="75px" width="190px" alt="logo"
+                            style="padding-bottom: 10px;">
+                    </div>
+                    <p>Follow us on our social media channels, and let us keep in touch with you. Stay updated with our
+                        latest offers!</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="">
+                            <i class="fab fa-twitter"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Financial Planning</a>
+                    <a class="btn btn-link" href="">Cash Investment</a>
+                    <a class="btn btn-link" href="">Financial Consultancy</a>
+                    <a class="btn btn-link" href="">Business Loans</a>
+                    <a class="btn btn-link" href="">Business Analysis</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3">
+
+                        </i>G-13, Industrial Area, Upsidc Site IV, Surajpur Site V, Greater Noida, Uttar Pradesh 201308
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@deeomdigital.com</p>
+                    <p class="mb-2"><i class="fa-sharp fa-solid fa-globe me-3"></i>
+                        www.deeomdigital.com</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center  mb-3 mb-md-0">
+                    Copyright &copy; 2023 <a class="border-bottom" href="#"> Deeom Digital</a>, All Right Reserved.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://kit.fontawesome.com/4dea96499a.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

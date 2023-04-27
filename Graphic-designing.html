@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Website Development</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid  px-0 wow fadeIn" data-wow-delay="0.1s">
+        <!-- <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt text-primary me-2"></i>G-13, Upsidc Site IV, Surajpur Site V, Greater Noida 201308 </small>
+                <small class="ms-4"><i class="fa fa-clock text-primary me-2"></i>10.00 am - 7.00 pm</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small><i class="fa fa-envelope text-primary me-2"></i>info@deeomdigital.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</small>
+            </div>
+        </div> -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-light  py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s"
+            style="background-color: #fff; position: fixed; top: 0px !important; width: 100%; z-index: 100;">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <!-- <h1 class="display-5 text-primary m-0">DEEOM </h1> -->
+                <img src="Deeom Digital.png" height="75px" width="190px" alt="logo" style="padding-bottom: 10px;">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto p-4 p-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class=" nav-link">About us</a>
+                    </li>
+                    <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropend">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Digital Marketing &raquo;
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="ppc-services.html">Pay Per Click</a></li>
+                                    <li><a class="dropdown-item" href="lead-genration.html">Lead Generation</a></li>
+
+                                    <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
+                                    <li><a class="dropdown-item" href="#">Search Engine Optimization</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropend">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Website Design &raquo;
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Website Designing</a></li>
+                                    <li><a class="dropdown-item" href="#">Graphics Designing</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropend">
+                                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Content Writing
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </ul>
+                <div class="d-none d-lg-flex ms-2">
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-facebook-f text-primary"></small>
+                    </a>
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-twitter text-primary"></small>
+                    </a>
+                    <a class="btn btn-light btn-sm-square rounded-circle ms-3" href="">
+                        <small class="fab fa-linkedin-in text-primary"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <div class="smm-banner mb-5">
+        <img src="graphic-design.jpg" width="100%" alt="" class="">
+    </div>
+
+
+    <div class="graphics-content">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="wpb_wrapper">
+                        <h2 style="font-size: 35px;" class="vc_custom_heading">Graphic Design Services in Noida
+
+                        </h2>
+                        <div id="seofy_spacer_644986fea0cca" class="seofy_module_spacing responsive_active">
+                            <div class="spacing_size spacing_size-initial" style="height:10px;"></div>
+                            <div class="spacing_size spacing_size-mobile" style="height:0px;"></div>
+                        </div>
+
+                        <div id="seofy_spacer_644986fea0f4c" class="seofy_module_spacing responsive_active">
+                            <div class="spacing_size spacing_size-initial" style="height:8px;"></div>
+                            <div class="spacing_size spacing_size-mobile" style="height:0px;"></div>
+                        </div>
+                        <div class="seofy_module_text" style="font-size:16px;line-height:30px;">
+                            <p style="text-align: justify;"><span style="color: #000000;"> Internet has grabbed
+                                    attention and is bound to stay. It is not just a storehouse of information but has
+                                    also turned out to be an important business area. Websites having just information
+                                    can be dull and clients might not look into it attentively, but art, colors,
+                                    designs, and patterns are all that make information appealing and visible. Graphic
+                                    designing has thus, turned out to be an important service. Backgrounds, logos,
+                                    patterns, creative designs, etc. are all made possible through graphic design
+                                    services.</p>
+                        </div>
+                        <div id="seofy_spacer_644986fea119d" class="seofy_module_spacing responsive_active">
+                            <div class="spacing_size spacing_size-initial" style="height:20px;"></div>
+                            <div class="spacing_size spacing_size-mobile" style="height:0px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                        <img src="graphic-design-company.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h2 class=" py-3">Deeom Digital is the top agency for Graphic Design Services</h2>
+            <p>We are proud to announce that Deeom Digital has over the years provided best graphic design services in
+                Noida and Delhi. We are one stop solution to all your graphic designing needs. We are highly skilled and
+                have all the expertise in this field. We provide various services to make sure that your content looks
+                graphically interesting, catchy, informative and appealing.</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon">
+                      <img src="https://digitalnotebook.in/up/2020/10/93294af6a4a352bdb07f673892efcb09.png"
+                                  class="img-fluid"      alt=""></div>
+                            </div>
+                        </div>
+                        <div class="infobox_content_wrapper">
+                            <h3 class="infobox_title">Logo Designing</h3>
+                            <div class="infobox_content">Logo is of prime importance when associated with any product or
+                                services. It gives an identity and popularity. We are creative and have unique ideas to
+                                give you an interesting logo for any purpose. We make sure that the logo designed suits
+                                your requirements and is identified quickly with your product or services. We make them
+                                in files that are easily printed and edited for bulk usage in any format by you.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img src="https://digitalnotebook.in/up/2020/10/18787944.jpg"
+                                    class="img-fluid"     alt=""></div>
+                            </div>
+                        </div>
+                        <div class="infobox_content_wrapper">
+                            <h3 class="infobox_title">Business Card Designing</h3>
+                            <div class="infobox_content">If you collaborate with us, beautiful and creative business
+                                card designs are on your way. We excel in making attractive business cards with your
+                                logo printable and copied in any format. We provide digital business cards as well as
+                                printed cards to suit the diverse need of our clients. Our printed business cards are
+                                equipped with QR Scanner, which makes connections easier and faster.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/752764-200.png"  class="img-fluid"  alt=""></div>
+                            </div>
+                        </div>
+                        <div class="infobox_content_wrapper">
+                            <h3 class="infobox_title">Letterhead</h3>
+                            <div class="infobox_content">In a company, letterhead is of prime importance. It is an
+                                easier way to handle things as it is a readymade template. Just adding details, and
+                                printing and your job is done- easy and simple. We range in a variety of interesting
+                                templates suiting your requirements and needs.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/4-44337_transparent-social-media-graphics-png-social-media-recommendations.png"
+                                        class="img-fluid"   alt=""></div>
+                            </div>
+                        </div>
+                        <div class="infobox_content_wrapper">
+                            <h3 class="infobox_title">Social Media Posts and banners</h3>
+                            <div class="infobox_content">We have a dedicated team working in this regard and have
+                                expertise in this field. We design post and banners specifically catering to your
+                                requirements. We highlight your services, your products and accomplishments so that more
+                                and more people would love to interact with you.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img src="https://digitalnotebook.in/up/2020/10/1454956.png"
+                                    class="img-fluid"       alt=""></div>
+                            </div>
+                        </div>
+                        <div class="infobox_content_wrapper">
+                            <h3 class="infobox_title">Packaging and labeling design</h3>
+                            <div class="infobox_content">We make sure that we leave no stone unturned to keep you in
+                                memory of people and popularize you. Packaging and labeling is done by our creative team
+                                to make sure that your products look catchy, stunning and stylish.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="infobox_wrapper">
+                        <div class="infobox_icon_wrapper">
+                            <div class="infobox_icon_container">
+                                <div class="infobox_icon"><img
+                                        src="https://digitalnotebook.in/up/2020/10/demo_favicon.png"  class="img-fluid"  alt=""></div>
+                            </div>
+                        </div>
+                        <div class="infobox_content_wrapper">
+                            <h3 class="infobox_title">Favicon Icon</h3>
+                            <div class="infobox_content">Favicon is located in bookmarks, URL addresses and tabs. It is
+                                an important feature used for branding as well as it makes it easier to locate and visit
+                                your site in no time. We have an excellent team of professionals working to give you the
+                                icon you would love.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+          <h2> Features</h2> 
+          <ul>
+            <li>We provide seamless flow of services with guaranteed customer satisfaction.</li>
+            <li>We provide high resolution logo to our clients in several formats.</li>
+            <li>Our social media reach has enhanced our stature in the market and we try our best to extend the benefits of it to you.</li>
+          </ul>
+
+
+
+        </div>
+    </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="logo">
+                        <img src="Deeom Digital.png" height="75px" width="190px" alt="logo"
+                            style="padding-bottom: 10px;">
+                    </div>
+                    <p>Follow us on our social media channels, and let us keep in touch with you. Stay updated with our
+                        latest offers!</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="">
+                            <i class="fab fa-twitter"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Financial Planning</a>
+                    <a class="btn btn-link" href="">Cash Investment</a>
+                    <a class="btn btn-link" href="">Financial Consultancy</a>
+                    <a class="btn btn-link" href="">Business Loans</a>
+                    <a class="btn btn-link" href="">Business Analysis</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3">
+
+                        </i>G-13, Industrial Area, Upsidc Site IV, Surajpur Site V, Greater Noida, Uttar Pradesh 201308
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@deeomdigital.com</p>
+                    <p class="mb-2"><i class="fa-sharp fa-solid fa-globe me-3"></i>
+                        www.deeomdigital.com</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center  mb-3 mb-md-0">
+                    Copyright &copy; 2023 <a class="border-bottom" href="#"> Deeom Digital</a>, All Right Reserved.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://kit.fontawesome.com/4dea96499a.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
