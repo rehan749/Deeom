@@ -3858,8 +3858,9 @@ fieldset:disabled .btn {
     list-style: none;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 8px
+    border: 1px solid rgba(250, 250, 250, 0.15);
+    border-radius: 2px;
+    box-shadow: 2px 1px 4px;
 }
 
 .dropdown-menu[data-bs-popper] {

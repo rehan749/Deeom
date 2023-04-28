@@ -145,6 +145,21 @@ h6,
     position: absolute;
     top: 0px !important;
     left: 100%;
+    
+  }
+
+  @media  screen and (max-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: static !important;
+      top: 0;
+      left: 100%;
+      padding: 5px 25px;
+      box-shadow: 2px 1px 4px;
+    }
+    .show{
+        padding: 5px 30px;
+        box-shadow: 2px 1px 4px;
+    }
   }
 
 
@@ -169,6 +184,7 @@ h6,
         transform-origin: 0% 0%;
         transition: .5s;
         opacity: 0;
+        box-shadow: 2px 1px 4px;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -176,6 +192,7 @@ h6,
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        box-shadow: 2px 1px 4px;
     }
 }
 
