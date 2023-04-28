@@ -731,6 +731,9 @@ h6,
     .smm-banner img{
         height: 45vh;
     }
+    .footer .container{
+        padding-bottom: 0rem !important;
+    }
 }
 
 /* content-writing */
