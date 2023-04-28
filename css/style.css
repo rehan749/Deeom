@@ -665,8 +665,8 @@ h6,
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
-    position: relative;
+    /* height: 50vh; */
+    /* position: relative; */
     padding: 70px 0px;
 
 }
@@ -690,6 +690,18 @@ h6,
     color: #191919;
 }
 
+/* contact us */
+.wpb_column .col-md-4{
+    margin: 10px 0px;
+}
+@media (max-width:700px){
+    .contact-banner img{
+        height: 45vh;
+    }
+    .smm-banner img{
+        height: 45vh;
+    }
+}
 
 .infobox_wrapper{
     border: 1px solid rgb(145, 144, 144);
