@@ -734,6 +734,10 @@ h6,
     .footer .container{
         padding-bottom: 0rem !important;
     }
+    .footer .col-lg-3 p{
+        font-size: 16px !important;
+        line-height: 30px !important;
+    }
 }
 
 /* content-writing */
