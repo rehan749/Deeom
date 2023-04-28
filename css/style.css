@@ -757,3 +757,7 @@ h6,
 .infobox_wrapper .infobox_icon{
     margin: auto;
 }
+
+@media (min-width:1100px) and (max-width:1345px){
+    
+}
