@@ -59,9 +59,9 @@
     $(".project-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
-        margin: 25,
+        margin: 20,
         loop: true,
-        center: true,
+        center: false,
         dots: false,
         nav: true,
         navText : [
@@ -73,13 +73,13 @@
                 items:1
             },
             576:{
-                items:1
-            },
-            768:{
                 items:2
             },
-            992:{
+            768:{
                 items:3
+            },
+            992:{
+                items:4
             }
         }
     });

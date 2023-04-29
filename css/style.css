@@ -369,10 +369,16 @@ h6,
 /*** Project ***/
 .project-item,
 .project-item .project-img {
-    position: relative;
+    /* position: relative; */
+    text-align: center;
 }
 
-.project-item .project-img a {
+.project-item{
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 3px 1px 3px rgb(255, 255, 255);
+}
+/* .project-item .project-img a {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -385,7 +391,7 @@ h6,
     border-radius: 8px;
     opacity: 0;
     transition: .5s;
-}
+} */
 
 .project-item:hover .project-img a {
     opacity: 1;
@@ -397,26 +403,27 @@ h6,
     right: 0;
     bottom: 0;
     left: 3rem;
-    border: 1px solid var(--light);
+    /* border: 1px solid var(--light); */
     border-radius: 8px;
     display: flex;
     align-items: flex-end;
     padding: 18px;
     z-index: -1;
     transition: .5s;
+    text-align: center;
 }
 
-.project-item:hover .project-title {
+/* .project-item:hover .project-title {
     background: var(--primary);
     border-color: var(--primary);
-}
+} */
 
 .project-item .project-title h4 {
     transition: .5s;
 }
 
 .project-item:hover .project-title h4 {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .project-carousel .owl-nav {
