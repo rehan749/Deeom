@@ -740,6 +740,20 @@ h6,
     }
 }
 
+/* index services */
+
+
+
+.services .box img{
+    filter: brightness(0.5);
+    transition: all 0.3s ease-out;
+    
+
+}
+.services .box img:hover{
+    transform: scale(0.9);
+}
+
 /* content-writing */
 .our-objective ul li{
     font-size: 17px;
